@@ -24,8 +24,9 @@ export const Button = styled.button`
   border-radius: 12px;
   background: none;
   color: black;
-  margin-top: 110px;
   cursor: pointer;
+  position: absolute;
+  top: 30px;
 `;
 
 export const Paragraph = styled.p`

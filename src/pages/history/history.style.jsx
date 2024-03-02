@@ -11,6 +11,7 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 100px 0;
 `;
 
 export const ListWrapper = styled.div`

@@ -4,6 +4,7 @@ import { Container, Wrapper, Button, Paragraph } from "./modal.style";
 const Modal = ({ images, toggleModal }) => {
   return (
     <Container>
+      <Button onClick={toggleModal}>Close Modal</Button>
       <Wrapper>
         {images.map((item) => {
           return (
@@ -13,7 +14,6 @@ const Modal = ({ images, toggleModal }) => {
             </div>
           );
         })}
-        <Button onClick={toggleModal}>Close Modal</Button>
       </Wrapper>
     </Container>
   );
