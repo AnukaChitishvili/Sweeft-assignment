@@ -14,6 +14,7 @@ const Homepage = () => {
     inputValue,
     setInputValue,
     setHistory,
+    history,
   } = useContext(FetchContext);
 
   const handleEnterSearch = (e) => {
@@ -23,6 +24,8 @@ const Homepage = () => {
       setHistory((prevState) => [...prevState, e.target.value]);
     }
   };
+
+  console.log(history);
 
   return (
     <Container>
